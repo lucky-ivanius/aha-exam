@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function LandingPage(): JSX.Element {
-  return <h1 className="text-2xl text-green-500">Landing Page</h1>;
+  return (
+    <div className="flex flex-col items-center justify-center w-full h-screen">
+      <Button>Login</Button>
+    </div>
+  );
 }

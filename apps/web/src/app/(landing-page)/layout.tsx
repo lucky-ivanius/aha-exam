@@ -9,5 +9,5 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps): JSX.Element {
-  return <div className="container bg-yellow-50">{children}</div>;
+  return <div className="container">{children}</div>;
 }
