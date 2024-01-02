@@ -1,10 +1,10 @@
-import "./styles.css";
+import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
+export interface RootLayoutProps {
   children: React.ReactNode;
-}): JSX.Element {
+}
+
+export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
     <html lang="en">
       <body>{children}</body>
